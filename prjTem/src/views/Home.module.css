@@ -1,0 +1,75 @@
+
+.homePage{
+    height: 100vh;
+    width: 100vw;
+    background: url("../assets/img/bb.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.pageCon{
+    height: 100%;
+    width: 100%;
+    background: url("../assets/img/pt.png") no-repeat;
+    background-position: center center;
+    background-size: 100vw calc(100vw * 1.406);
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+}
+.pageCon>section{
+    width: calc(100% - 50px);
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.pageCon>section:last-child{
+    margin-top: 100px;
+    align-items: center;
+}
+
+.title{
+    margin-top: 40px;
+    background: url("../assets/img/isdo.png") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 60px;
+}
+
+.infow{
+    margin-top: 27px;
+    background: url("../assets/img/to-test.png") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 84px;
+}
+.startbtn{
+    border: none;
+    margin-left: 25px;
+    background: url("../assets/img/test-btn.png") no-repeat;
+    background-size: 100% 100%;
+    width: calc(100% - 50px);
+    height: 76px;
+    margin-bottom: 38px;
+}
+.blackItem{
+    height: 27px;
+    line-height: 27px;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    margin-bottom: 2px;
+}
+.blackItem>span{
+    font-weight: bold;
+    margin: 0 5px;
+}
+.nItem{
+    height: 27px;
+    line-height: 27px;
+    font-size: 16px;
+    color: #fff;
+}
+.nItem>span{
+    font-weight: bold;
+    margin: 0 5px;
+}
